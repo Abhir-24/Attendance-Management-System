@@ -1,3 +1,8 @@
+// DSC Attendance Management System
+// Made by Abhir Raj Shrivastava
+// Batch: F2
+// Enrollment no. 9919103059
+
 import React, {Component} from "react";
 import './register.scss';
 
