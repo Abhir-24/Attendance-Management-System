@@ -1,0 +1,73 @@
+.register {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../images/login.jpg') center/cover no-repeat fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.submission {
+    background: linear-gradient(0.25turn, #F7483B, #7CA5B8, #33FF96, #FEB248);
+    margin-top: 150px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+.msg {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.head {
+    font-size: 25px;
+    font-weight: bold;
+    color: #390040;
+}
+
+.submission input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    font-size: 20px;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 4px solid #f5f5f5;
+    color: #f5f5f5;
+  }
+
+  
+  .submission input::placeholder {
+    color: #f5f5f5;
+  }
+
+  .final-btn {
+    cursor: pointer;
+    border-radius: 7px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #390040;
+    margin-left: 114px;
+    padding: 15px 92px;
+    text-decoration: none;
+    transition: all 0.5s linear;
+  }
+  
+  .final-btn:hover {
+      
+    background: white;
+    color: #390040;
+    text-decoration: none;
+  }
+  
+
+  @media screen and (max-width: 960px) {
+    .final-btn {
+        margin-left: 74px;
+    }
+}
